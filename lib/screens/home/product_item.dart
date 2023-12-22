@@ -1,6 +1,7 @@
-import 'package:carrot_market_01/models/product.dart';
+import 'package:carrot_market_01/models/Product.dart';
 import 'package:carrot_market_01/screens/home/product_detail.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class ProductItem extends StatelessWidget {
   // 규칙 1 const 생성자는 초기화 되어야 하는 변수는 반드시 상수값이 되어야 한다.
@@ -26,9 +27,11 @@ class ProductItem extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 16.0,),
-          ProductDetail(),
+          ProductDetail(product: product),
         ],
       ),
     );
   }
+
+
 }

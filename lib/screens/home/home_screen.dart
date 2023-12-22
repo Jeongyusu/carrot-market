@@ -1,4 +1,4 @@
-import 'package:carrot_market_01/models/product.dart';
+import 'package:carrot_market_01/models/Product.dart';
 import 'package:carrot_market_01/screens/home/product_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
